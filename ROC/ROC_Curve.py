@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 Calculate the FPR, TPR and  Threshold.
 """
 # y-label is the sample, 1=Positive  0=Negative, these has 10 samples
-y_label = ([1, 1, 0, 1, 1, 0, 0, 0, 1, 0])  # 非二进制需要pos_label
+y_label = ([1, 1, 0, 1, 1, 0, 0, 0, 1, 0])  # need pos_label to id which is positive sample
 # y_pre is the Predicted probability which is to the sample, also has 10 numbers.
 y_pre = ([0.95, 0.86, 0.7, 0.65, 0.55, 0.53, 0.52, 0.43, 0.42, 0.35])
 # thersholds is the Threshold which is to the y_pre and sample
