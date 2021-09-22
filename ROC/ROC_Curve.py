@@ -24,7 +24,7 @@ plt.plot(fpr, tpr, 'k--', label='ROC (area = {0:.2f})'.format(roc_auc), lw=2)
 plt.xlim([-0.05, 1.05])
 plt.ylim([-0.05, 1.05])
 plt.xlabel('False Positive Rate')
-plt.ylabel('True Positive Rate')  # 可以使用中文，但需要导入一些库即字体
+plt.ylabel('True Positive Rate') 
 plt.title('ROC Curve')
 plt.legend(loc="lower right")
 plt.show()
